@@ -1,0 +1,61 @@
+ideology_change_support = {
+    to_change_fasism = {
+        available = {
+			is_ai = no
+            has_idea = generic_fascist_demagogue #国粋主義煽動家
+		}
+
+        cost = 0
+
+        complete_effect = {
+			add_popularity = {
+                ideology = fascism
+                popularity = 0.5
+            }
+            add_political_power = 175
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { factor = 0}
+    }
+
+    to_change_democratic = {
+        available = {
+			is_ai = no
+            has_idea = generic_democratic_reformer #民主主義
+		}
+
+        cost = 0
+
+        complete_effect = {
+			add_popularity = {
+                ideology = democratic
+                popularity = 0.5
+            }
+            add_political_power = 175
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { factor = 0}
+    }
+
+    to_change_communism = {
+        available = {
+			is_ai = no
+            has_idea = generic_communist_revolutionary #共産主義革命家
+		}
+
+        cost = 0
+
+        complete_effect = {
+			add_popularity = {
+                ideology = communism
+                popularity = 0.5
+            }
+            add_political_power = 175
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { factor = 0}
+    }
+}

@@ -11,3 +11,14 @@ expansion_of_landing = {
 		always = yes
 	}
 }
+
+ideology_change_support {
+	available = {
+		is_ai = no
+		OR = {
+			has_idea = generic_fascist_demagogue #国粋主義煽動家
+			has_idea = generic_democratic_reformer #民主主義
+			has_idea = generic_communist_revolutionary #共産主義革命家
+		}
+	}
+}
