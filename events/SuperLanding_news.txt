@@ -5,22 +5,24 @@ add_namespace = SuperLanding
 news_event = {
 	id = SuperLanding.7
 	
-	title = "フィジーでABUロボットコンテストが開催される"
-	desc = "フィジーで第19回アジア太平洋ロボットコンテストが開催され、各国代表が競い合った。"
+	title = SuperLanding.7.t
+	desc = SuperLanding.7.d
 	
 	trigger = {
-		date > 1937.08.16
+		country_exists = GER
+		#date > 1937.08.16
+		date > 1936.01.01
 	}
 	
 	mean_time_to_happen = {
-		date = 14
+		days = 2
 	}
 	
 	major = yes
 	fire_only_once = yes
 	
 	option = {
-		name = "彼らの未来に期待しよう。"
+		name = SuperLanding.7.a
 	}
 }
 
