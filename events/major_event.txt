@@ -1,28 +1,28 @@
 add_namespace = SuperLanding
 #6
-country_event = {
-	id = SuperLanding.6
-	title = "主要国への躍進"
-	desc = "我々は躍進を遂げた。これは歴史に残る快挙である!"
-	
-	fire_only_once = yes
-	
-	trigger = {
-		is_ai = no
-		is_major = yes
-		NOT = { tag = GER }    
-		NOT = { tag = ITA }
-		NOT = { tag = FRA }
-		NOT = { tag = JAP }
-		NOT = { tag = USA }
-		NOT = { tag = ENG }
-		NOT = { tag = SOV }
-	}
-	
-	option = {
-		name = "やったな!"
-		add_political_power = 100
-		add_stability = 0.1
-		add_war_support = 0.1
-	}
-}
+#country_event = {
+#	id = SuperLanding.6
+#	title = "主要国への躍進"
+#	desc = "我々は躍進を遂げた。これは歴史に残る快挙である!"
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		is_ai = no
+#		is_major = yes
+#		NOT = { tag = GER }    
+#		NOT = { tag = ITA }
+#		NOT = { tag = FRA }
+#		NOT = { tag = JAP }
+#		NOT = { tag = USA }
+#		NOT = { tag = ENG }
+#		NOT = { tag = SOV }
+#	}
+#	
+#	option = {
+#		name = "やったな!"
+#		add_political_power = 100
+#		add_stability = 0.1
+#		add_war_support = 0.1
+#	}
+#}
