@@ -22,3 +22,9 @@ ideology_change_support {
 		}
 	}
 }
+
+annex_and_core = {
+	available = {
+		is_ai = no
+	}
+}

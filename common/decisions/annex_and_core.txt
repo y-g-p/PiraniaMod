@@ -1,0 +1,39 @@
+annex_and_core = {
+    supper_annex = {
+        available = {
+            FROM = {
+                is_puppet_of = ROOT
+            }
+            FROM = {
+                has_autonomy_state = autonomy_collaboration_government
+            }
+        }
+
+        target_array = subjects
+
+        target_trigger = {
+            FROM = {
+                is_puppet_of = ROOT
+            }
+        }
+
+        complete_effect = {
+            FROM = {
+                for_each_loop = {
+                    array = controlled_states
+
+                    ROOT = {
+                        add_state_core = v
+                    }
+                }
+            }
+
+            ROOT = {
+                annex_country = {
+                    target = FROM
+                    transfer_troops = yes
+                }
+            }
+		}
+    }
+}

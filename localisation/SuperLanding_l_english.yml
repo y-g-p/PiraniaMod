@@ -1,5 +1,5 @@
 ﻿l_english:
- expansion_of_intelligence_service:"諜報機関への注力"
+ expansion_of_intelligence_service:0"諜報機関への注力"
  first_expantion:0"諜報機関の拡充"
  second_expantion:0"諜報機関の拡充"
  final_expantion:0"諜報機関の拡充"
@@ -13,6 +13,14 @@
  PromotionOfReserch:0"研究促進"
  PromotionOfLanding:0"魚類の嗜み"
  God_of_Landing:0"ぴえー"
+
+ ideology_change_support:0"政体変更のすゝめ"
+ to_change_fasism:0 "国粋主義者の誘い"
+ to_change_democratic:0 "民主主義者への渇望"
+ to_change_communism:0 "共産主義者の扇動"
+
+ annex_and_core:0 "大歓迎の占領者"
+ supper_annex:0 "[From.GetNameDef]の完全なる併合"
  
  Increase_troops:0"人的資源の正しさ"
  
