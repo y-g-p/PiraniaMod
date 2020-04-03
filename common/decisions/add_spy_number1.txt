@@ -1,0 +1,178 @@
+expansion_of_intelligence_service = {
+	
+	first_expantion = {
+		available = {
+			num_of_civilian_factories_available_for_projects > 5
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		
+		modifier = {
+			civilian_factory_use = 5
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			add_ideas = Development_of_Intelligence_Agencies_1
+		}
+		ai_will_do = { factor = 0}
+	}
+	
+	second_expantion = {
+		available = {
+			OR = {
+				AND = {
+					is_major = yes
+					num_of_civilian_factories_available_for_projects > 10
+				}
+				AND = {
+					is_major = no
+					num_of_civilian_factories_available_for_projects > 5
+				}
+			}
+			has_idea = Development_of_Intelligence_Agencies_1
+		}
+		
+		visible = {
+			has_idea = Development_of_Intelligence_Agencies_1
+		}
+		
+		cost = 50
+		fire_only_once = yes
+		
+		modifier = {
+			civilian_factory_use = 5
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Development_of_Intelligence_Agencies_1
+				add_idea = Development_of_Intelligence_Agencies_2
+			}
+			
+		}
+		ai_will_do = { factor = 0}
+	}
+	
+	final_expantion = {
+		available = {
+			OR = {
+				AND = {
+					is_major = yes
+					num_of_civilian_factories_available_for_projects > 20
+				}
+				AND = {
+					is_major = no
+					num_of_civilian_factories_available_for_projects > 10
+				}
+			}
+			has_idea = Development_of_Intelligence_Agencies_2
+		}
+		
+		visible = {
+			has_idea = Development_of_Intelligence_Agencies_2
+		}
+		
+		cost = 100
+		fire_only_once = yes
+		
+		modifier = {
+			civilian_factory_use = 5
+		}
+		
+		days_remove = 30
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = Development_of_Intelligence_Agencies_2
+				add_idea = God_of_Intelligence_Agencies
+			}
+		}
+		ai_will_do = { factor = 0}
+	}
+	
+	governance_support_1 = {
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		
+		cost = 25
+		modifier = {
+			civilian_factory_use = 1
+			resistance_target = -0.5
+			compliance_gain = 0.5
+		}
+		days_remove = 90
+		ai_will_do = { factor = 0}
+		days_re_enable = 30
+	}
+	
+	governance_support_2 = {
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+		
+		cost = 25
+		modifier = {
+			stability_weekly = 0.005
+			war_support_weekly = 0.005
+			political_power_gain = 0.5
+			justify_war_goal_time = -0.25
+			civilian_factory_use = 1
+		}
+		days_remove = 90
+		ai_will_do = { factor = 0}
+		days_re_enable = 30
+	}
+}
+
+expansion_of_landing = {
+	
+	PromotionOfReserch = {
+		available = {
+			has_navy_size = {
+				size > 5
+				type = screen_ship
+			}
+		}
+		
+		cost = 50
+		
+		complete_effect = {
+			add_tech_bonus {
+				bonus = 2
+				uses = 1
+				technology = mtg_landing_craft
+				ahead_reduction = 10
+			}
+			add_tech_bonus {
+				bonus = 2
+				uses = 1
+				technology = mtg_tank_landing_craft
+				ahead_reduction = 10
+			}
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { factor = 0}
+	}
+	
+	PromotionOfLanding = {
+		available = {
+			has_tech = mtg_tank_landing_craft
+		}
+		
+		cost = 50
+		
+		complete_effect = {
+			add_ideas = God_of_Landing
+		}
+		
+		fire_only_once = yes
+		ai_will_do = { factor = 0}
+	}
+}

@@ -1,0 +1,13 @@
+expansion_of_intelligence_service = {
+	available = {
+		always = yes
+	}
+}
+
+expansion_of_landing = {
+	icon = decision_category_mtg_naval_treaties.dds
+
+	available = {
+		always = yes
+	}
+}

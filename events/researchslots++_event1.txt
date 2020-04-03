@@ -1,0 +1,134 @@
+add_namespace = SuperLanding
+#1,2
+country_event = {
+	id = SuperLanding.1
+	title = "欲望の胎動"
+	desc = "この不穏な情勢では、より多くの有効な研究を行う必要がある!"
+	
+#	trigger = {
+#		AND = {
+#			is_ai = no
+#			is_major = yes
+#			NOT = {has_country_flag = researchslots++}
+#		}
+#	}
+	
+#	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "ああ、その通りだ"
+		add_research_slot = 2
+		hidden_effect {
+			set_country_flag = researchslots++
+		}
+	}
+}
+
+country_event = {
+	id = SuperLanding.2
+	title = "雌伏の時"
+	desc = "我々が大国に追いつくためにはさらなる努力を必要とする!"
+	
+#	trigger = {
+#		AND = {
+#			is_ai = no
+#			is_major = no
+#			NOT = {has_country_flag = researchslots++}
+#		}
+#	}
+	
+#	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "研究を奨励する"
+		add_research_slot = 4
+		add_tech_bonus {
+			bonus = 100
+			uses = 20
+#			ahead_reduction = 10
+			category = air_doctrine
+			category = air_equipment
+			category = jet_technology
+			category = armor
+			category = artillery
+			category = rocketry
+			category = nuclear
+			category = rocketry
+			category = electronics
+			category = computing_tech
+			category = naval_equipment
+			category = decryption_tech
+			category = encryption_tech
+			category = radar_tech
+			category = industry
+			category = motorized_equipment
+			category = infantry_tech
+			category = cat_mechanized_equipment
+#			category = mot_rockets
+			category = infantry_weapons
+			category = night_vision
+			category = mountaineers_tech
+			category = marine_tech
+			category = para_tech
+			category = land_doctrine
+			category = cat_mass_assault
+			category = naval_doctrine
+			category = support_tech
+		}
+		
+		hidden_effect {
+			set_country_flag = researchslots++
+		}
+	}
+	
+	option = {
+		name = "産業を奨励する"
+		add_research_slot = 2
+		add_offsite_building = {
+			type = industrial_complex
+			level = 30
+			instant_build = yes
+		}
+		add_tech_bonus {
+			bonus = 10
+			uses = 10
+			category = industry
+		}
+		
+		hidden_effect {
+			set_country_flag = researchslots++
+		}
+	}
+	
+	option = {
+		name = "軍隊を増強する"
+		add_research_slot = 1
+		add_offsite_building = {
+			type = industrial_complex
+			level = 5
+			instant_build = yes
+		}
+		
+		add_offsite_building = {
+			type = arms_factory
+			level = 5
+			instant_build = yes
+		}
+#		add_manpower = 50000
+		add_ideas = Increase_troops
+		army_experience	= 100
+		
+		add_offsite_building = {
+			type = dockyard
+			level = 5
+			instant_build = yes
+		}
+		navy_experience = 100
+		
+		hidden_effect {
+			set_country_flag = researchslots++
+		}
+	}
+}

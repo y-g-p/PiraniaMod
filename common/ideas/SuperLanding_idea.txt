@@ -1,0 +1,129 @@
+ideas = {
+	
+	country = {
+		Development_of_Intelligence_Agencies_1 = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Test01
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 1
+				intel_network_gain = 0.1
+				resistance_target = -0.1
+				compliance_gain = 0.1
+				intelligence_agency_defense = 0.1
+				intel_from_operatives_factor = 0.1
+				own_operative_detection_chance_factor = -0.1
+				resistance_damage_to_garrison = -0.1
+			}
+			
+			ai_will_do = { factor = 0}
+		}
+		
+		Development_of_Intelligence_Agencies_2 = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Test01
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 3
+				intel_network_gain = 0.5
+				resistance_target = -0.5
+				compliance_gain = 0.5
+				intelligence_agency_defense = 0.5
+				intel_from_operatives_factor = 0.5
+				own_operative_detection_chance_factor = -0.5
+				resistance_damage_to_garrison = -0.5
+			}
+			
+			ai_will_do = { factor = 0}
+		}
+		
+		God_of_Intelligence_Agencies = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Test01
+			removal_cost = -1
+			
+			modifier = {
+				operative_slot = 5
+				intel_network_gain = 0.9
+				resistance_target = -0.9
+				compliance_gain = 0.9
+				intelligence_agency_defense = 0.9
+				intel_from_operatives_factor = 0.9
+				own_operative_detection_chance_factor = -0.9
+				resistance_damage_to_garrison = -0.9
+			}
+			
+			ai_will_do = { factor = 0}
+		}
+	
+		God_of_Landing = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = Test01
+			
+			removal_cost = -1
+			
+			picture = Test01
+			
+			modifier = {
+				production_speed_naval_base_factor = 0.5
+				amphibious_invasion = 0.5
+				invasion_preparation = -0.9
+				fuel_gain_factor = 0.2
+				attrition = -0.2
+				no_supply_grace = 120
+			}
+			
+			ai_will_do = { factor = 0}
+		}
+		
+		Increase_troops = {
+			picture = "gfx/interface/ideas/test01.dds"
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = Test01
+			
+			modifier = {
+				conscription_factor = 1
+				conscription = 0.02
+			}
+			
+			ai_will_do = { factor = 0}
+		}
+	}
+	
+}

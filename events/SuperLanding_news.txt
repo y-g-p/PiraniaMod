@@ -1,0 +1,53 @@
+add_namespace = SuperLanding
+
+#7,8
+#8月23日日曜日
+news_event = {
+	id = SuperLanding.7
+	
+	title = "フィジーでABUロボットコンテストが開催される"
+	desc = "フィジーで第19回アジア太平洋ロボットコンテストが開催され、各国代表が競い合った。"
+	
+	trigger = {
+		date > 1937.08.16
+	}
+	
+	mean_time_to_happen = {
+		date = 14
+	}
+	
+	major = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "彼らの未来に期待しよう。"
+	}
+}
+
+#news_event = {
+#	id = SuperLanding.8
+#	
+#	trigger = {
+#		date > 1938.10.30
+#	}
+#	
+#	major = yes
+#	fire_only_once = yes
+#	
+#	title = "火星人の襲来"
+#	desc = "ニュージャージー州ウェストウィンザー・タウンシップにあるグローバーズミルという村落で、農場の近くに宇宙船が着陸したと、ニュースキャスターが迫真の\"生放送\"を行った。宇宙船の中から火星人が現れて、住民40人を殺害したと、キャスターは重々しい口調で伝えた。実際にはラジオドラマであったが、おおきな混乱が起こった。"
+#	
+#	if = {
+#		limit = {
+#			tag = USA
+#		}
+#		option = {
+#			name = "国民の不安が高まっているようだ。"
+#		}
+#	}
+#	else = {
+#		option = {
+#			name = "やつらはバカなのか?"
+#		}
+#	}
+#}
