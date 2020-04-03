@@ -21,6 +21,19 @@
 
  annex_and_core:0 "大歓迎の占領者"
  supper_annex:0 "[From.GetNameDef]の完全なる併合"
+
+ get_goal_to_white_peace:0 "最後の選択肢"
+ quest_for_peace:0 "[From.GetNameDef]との講話"
+
+ road_to_nordic_country:0 "北欧統一への道"
+ conquest_sweden:0 "我が国はスウェーデンを求める"
+ conquest_denmark:0 "我が国はデンマークを求める"
+ conquest_norway:0 "我が国はノルウェーを求める"
+ conquest_finland:0 "我が国はフィンランドを求める"
+ conquest_sweden_idea:0 "対スウェーデン作戦"
+ conquest_denmark_idea:0 "対デンマーク作戦"
+ conquest_norway_idea:0 "対ノルウェー作戦"
+ conquest_finland_idea:0 "対フィンランド作戦"
  
  Increase_troops:0"人的資源の正しさ"
  

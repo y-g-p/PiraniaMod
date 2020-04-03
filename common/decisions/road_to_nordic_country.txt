@@ -1,0 +1,149 @@
+road_to_nordic_country = {
+    conquest_sweden = {
+        available = {
+            is_ai = no
+            OR {
+                country_exists = SWE
+                original_tag = NOR
+				original_tag = DEN
+				original_tag = FIN
+            }
+        }
+
+        visible = {
+			OR = {
+				original_tag = NOR
+				original_tag = DEN
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+
+        cost = 25
+        fire_only_once = yes
+        
+        complete_effect = {
+			create_wargoal = {
+				target = SWE
+				type = take_state_focus
+			}
+            add_timed_idea = {
+                idea = conquest_sweden_idea
+                days = 120
+            }
+		}
+
+        ai_will_do = { factor = 0}
+    }
+
+    conquest_denmark = {
+        available = {
+            is_ai = no
+            OR {
+                country_exists = DEN
+                original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+            }
+        }
+
+        visible = {
+			OR = {
+				original_tag = NOR
+				original_tag = SWE
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+
+        cost = 25
+        fire_only_once = yes
+        
+        complete_effect = {
+			create_wargoal = {
+				target = DEN
+				type = take_state_focus
+			}
+            add_timed_idea = {
+                idea = conquest_denmark_idea
+                days = 120
+            }
+		}
+
+        ai_will_do = { factor = 0}
+    }
+
+    conquest_norway = {
+        available = {
+            is_ai = no
+            OR {
+                country_exists = NOR
+				original_tag = DEN
+				original_tag = SWE
+				original_tag = FIN
+            }
+        }
+
+        visible = {
+			OR = {
+				original_tag = DEN
+				original_tag = SWE
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+
+        cost = 25
+        fire_only_once = yes
+        
+        complete_effect = {
+			create_wargoal = {
+				target = NOR
+				type = take_state_focus
+			}
+            add_timed_idea = {
+                idea = conquest_norway_idea
+                days = 120
+            }
+		}
+
+        ai_will_do = { factor = 0}
+    }
+
+    conquest_finland = {
+        available = {
+            is_ai = no
+            OR {
+                country_exists = FIN
+                original_tag = NOR
+				original_tag = DEN
+				original_tag = SWE
+            }
+        }
+
+        visible = {
+			OR = {
+				original_tag = NOR
+				original_tag = DEN
+				original_tag = SWE
+			}
+			NOT = { has_global_flag = form_nordic_league_flag }
+		}
+
+        cost = 25
+        fire_only_once = yes
+        
+        complete_effect = {
+			create_wargoal = {
+				target = FIN
+				type = take_state_focus
+			}
+            add_timed_idea = {
+                idea = conquest_finland_idea
+                days = 120
+            }
+		}
+
+        ai_will_do = { factor = 0}
+    }
+}

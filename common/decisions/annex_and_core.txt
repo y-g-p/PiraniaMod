@@ -9,6 +9,8 @@ annex_and_core = {
             }
         }
 
+        cost = 100
+
         target_array = subjects
 
         target_trigger = {
@@ -35,5 +37,7 @@ annex_and_core = {
                 }
             }
 		}
+
+        ai_will_do = { factor = 0 }
     }
 }

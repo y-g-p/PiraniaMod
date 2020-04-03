@@ -28,3 +28,21 @@ annex_and_core = {
 		is_ai = no
 	}
 }
+
+get_goal_to_white_peace = {
+	available = {
+		is_ai = no
+	}
+}
+
+road_to_nordic_country = {
+	available = {
+		is_ai = no
+		OR {
+			original_tag = DEN
+			original_tag = SWE
+			original_tag = FIN
+			original_tag = NOR
+		}
+	}
+}

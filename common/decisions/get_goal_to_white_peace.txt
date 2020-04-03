@@ -1,0 +1,29 @@
+get_goal_to_white_peace = {
+    quest_for_peace {
+        available = {
+            FROM = {
+                has_war_with = ROOT
+            }
+        }
+
+        cost = 100
+
+        target_array = enemies
+
+        target_trigger = {
+            FROM = {
+                has_war_with = ROOT
+            }
+        }
+
+        complete_effect = {
+            white_peace = FROM
+            set_truce = {
+                target = FROM
+                days = 180
+            }
+		}
+
+        ai_will_do = { factor = 0 }
+    }
+}
