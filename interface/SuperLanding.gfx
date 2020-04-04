@@ -3,4 +3,39 @@ spriteTypes = {
         name = "GFX_idea_Test01"
         texturefile = "gfx/interface/ideas/test01.dds"
     }
+
+    SpriteType = {
+        name = "GFX_idea_God_of_Landing_pic"
+        texturefile = "gfx/interface/ideas/gfx_god_of_landing.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_Spy_Level1"
+        texturefile = "gfx/interface/ideas/idea_spy_level1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_Spy_Level2"
+        texturefile = "gfx/interface/ideas/idea_spy_level2.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_Spy_Level3"
+        texturefile = "gfx/interface/ideas/idea_spy_level3.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_Construction_A"
+        texturefile = "gfx/interface/ideas/idea_construction_a.dds.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_Extensive_Army"
+        texturefile = "gfx/interface/ideas/idea_extensive_army.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_idea_War_for_Unity_gfx"
+        texturefile = "gfx/interface/ideas/idea_War_For_Unity_gfx"
+    }
 }

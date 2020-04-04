@@ -29,6 +29,7 @@ country_event = {
 	id = SuperLanding.2
 	title = SuperLanding.2.t
 	desc = SuperLanding.2.d
+	picture = GFX_report_event_ast_army
 	
 #	trigger = {
 #		AND = {

@@ -9,7 +9,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = Spy_Level1
 			removal_cost = -1
 			
 			modifier = {
@@ -34,7 +34,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = Spy_Level2
 			removal_cost = -1
 			
 			modifier = {
@@ -59,7 +59,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = Spy_Level3
 			removal_cost = -1
 			
 			modifier = {
@@ -96,7 +96,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = Test01
+			picture = God_of_Landing_pic
 			
 			modifier = {
 				production_speed_naval_base_factor = 0.5
@@ -118,7 +118,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = Construction_A
 			removal_cost = -1
 			
 #			modifier = {
@@ -135,7 +135,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = Construction_A
 			removal_cost = -1
 			
 			modifier = {
@@ -157,7 +157,7 @@ ideas = {
 			
 			removal_cost = -1
 			
-			picture = Test01
+			picture = Extensive_Army
 			
 			modifier = {
 				conscription_factor = 1

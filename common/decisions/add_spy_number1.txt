@@ -170,6 +170,13 @@ expansion_of_landing = {
 		
 		complete_effect = {
 			add_ideas = God_of_Landing
+			random_owned_controlled_state = {
+				limit = { is_capital = yes }
+				add_resource = {
+					type = oil
+					amount = 50
+				}
+			}
 		}
 		
 		fire_only_once = yes

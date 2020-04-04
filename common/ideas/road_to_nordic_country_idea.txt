@@ -8,7 +8,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = War_for_Unity_gfx
 			removal_cost = -1
 			
 			targeted_modifier = {
@@ -28,7 +28,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = War_for_Unity_gfx
 			removal_cost = -1
 			
 			targeted_modifier = {
@@ -48,7 +48,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = War_for_Unity_gfx
 			removal_cost = -1
 			
 			targeted_modifier = {
@@ -68,7 +68,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = Test01
+			picture = War_for_Unity_gfx
 			removal_cost = -1
 			
 			targeted_modifier = {
