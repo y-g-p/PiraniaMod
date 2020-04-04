@@ -109,9 +109,43 @@ ideas = {
 			
 			ai_will_do = { factor = 0}
 		}
+
+		Foreseeable_Mass = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Test01
+			removal_cost = -1
+			
+#			modifier = {
+#			}
+			
+			ai_will_do = { factor = 0}
+		}
+
+		Focus_on_Construction = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Test01
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+			
+			ai_will_do = { factor = 0}
+		}
 		
 		Increase_troops = {
-			picture = "gfx/interface/ideas/test01.dds"
 			allowed = {
 				always = no
 			}
