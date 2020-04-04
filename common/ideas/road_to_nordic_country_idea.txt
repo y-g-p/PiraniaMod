@@ -2,7 +2,7 @@ ideas = {
     country = {
         conquest_sweden_idea = {
             allowed = {
-				always = no
+				country_exists = SWE
 			}
 			
 			allowed_civil_war = {
@@ -22,7 +22,7 @@ ideas = {
 
         conquest_denmark_idea = {
             allowed = {
-				always = no
+				country_exists = DEN
 			}
 			
 			allowed_civil_war = {
@@ -43,7 +43,7 @@ ideas = {
 
         conquest_norway_idea = {
             allowed = {
-				always = no
+				country_exists = NOR
 			}
 			
 			allowed_civil_war = {
@@ -64,7 +64,7 @@ ideas = {
 
         conquest_finland_idea = {
             allowed = {
-				always = no
+				country_exists = FIN
 			}
 			
 			allowed_civil_war = {

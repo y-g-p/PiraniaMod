@@ -6,6 +6,12 @@ get_goal_to_white_peace = {
             }
         }
 
+        visible = {
+            FROM = {
+                has_war_with = ROOT
+            }
+        }
+
         cost = 100
 
         target_array = enemies
