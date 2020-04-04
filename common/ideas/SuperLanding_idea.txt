@@ -105,6 +105,8 @@ ideas = {
 				fuel_gain_factor = 0.2
 				attrition = -0.2
 				no_supply_grace = 120
+				special_forces_cap = 0.5
+				special_forces_training_time_factor = -0.5
 			}
 			
 			ai_will_do = { factor = 0}
@@ -162,6 +164,8 @@ ideas = {
 			modifier = {
 				conscription_factor = 1
 				conscription = 0.02
+				special_forces_cap = 0.1
+				special_forces_training_time_factor = -0.1
 			}
 			
 			ai_will_do = { factor = 0}
