@@ -21,26 +21,4 @@ on_actions = {
 			}
 		}
 	}
-	
-	on_monthly = {
-		effect = {
-			every_country = {
-				limit = { 
-						is_ai = no
-						is_major = yes
-						NOT = {has_country_flag = researchslots++}
-				}
-				country_event = { id = SuperLanding.1 }
-			}
-			
-			every_country = {
-				limit = { 
-						is_ai = no
-						is_major = no
-						NOT = {has_country_flag = researchslots++}
-				}
-				country_event = { id = SuperLanding.2 }
-			}
-		}
-	}
 }
