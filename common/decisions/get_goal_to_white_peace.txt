@@ -17,10 +17,10 @@ get_goal_to_white_peace = {
                 value = v
 
                 white_peace = v
-                add_stability = -10
-                add_war_support = -10
-                add_political_power = -100
             }
+            add_stability = -20
+            add_war_support = -20
+            add_political_power = -100
 		}
 
         ai_will_do = { factor = 0 }
@@ -44,9 +44,9 @@ get_goal_to_white_peace = {
                 value = v
 
                 white_peace = v
-                add_stability = 10
-                add_political_power = 100
             }
+            add_stability = 10
+            add_political_power = 100
 		}
 
         ai_will_do = { factor = 0 }
