@@ -1,9 +1,21 @@
 ideology_change_support = {
     to_change_fasism = {
         available = {
-			is_ai = no
-            has_idea = generic_fascist_demagogue #国粋主義煽動家
+            OR = {
+				has_idea_with_trait = fascist_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = fascism }
 		}
+
+        visible = {
+            is_ai = no
+            OR = {
+				has_idea_with_trait = fascist_demagogue
+				has_idea_with_trait = syncretic_revanchist
+			}
+			NOT = { has_government = fascism }
+        }
 
         cost = 0
 
@@ -21,9 +33,21 @@ ideology_change_support = {
 
     to_change_democratic = {
         available = {
-			is_ai = no
-            has_idea = generic_democratic_reformer #民主主義
+            OR = {
+				has_idea_with_trait = democratic_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = democratic }
 		}
+
+        visible = {
+            is_ai = no
+            OR = {
+				has_idea_with_trait = democratic_reformer
+				has_idea_with_trait = social_reformer
+			}
+			NOT = { has_government = democratic }
+        }
 
         cost = 0
 
@@ -41,9 +65,21 @@ ideology_change_support = {
 
     to_change_communism = {
         available = {
-			is_ai = no
-            has_idea = generic_communist_revolutionary #共産主義革命家
+            OR = {
+				has_idea_with_trait = communist_revolutionary
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = communism }
 		}
+
+        visible = {
+            is_ai = no
+            OR = {
+				has_idea_with_trait = communist_revolutionary
+				has_idea_with_trait = ambitious_union_boss
+			}
+			NOT = { has_government = communism }
+        }
 
         cost = 0
 
