@@ -1,5 +1,40 @@
 annex_and_core = {
-    supper_annex = {
+    supper_annex_1 = {
+        available = {
+			has_core_occupation_modifier = {
+				occupied_country_tag = FROM
+				modifier = compliance_80
+			}
+		}
+        visible = {
+			has_core_occupation_modifier = {
+				occupied_country_tag = FROM
+				modifier = compliance_60
+			}
+        }
+
+        cost = 100
+
+		complete_effect = {
+            FROM = {
+                for_each_loop = {
+                    array = core_states
+
+                    ROOT = {
+                        add_state_core = v
+                    }
+                    remove_state_core = v
+                }
+            }
+        }
+		
+		target_non_existing = yes
+		target_array = occupied_countries
+
+        ai_will_do = { factor = 0 }
+    }
+
+    supper_annex_2 = {
         available = {
             FROM = {
                 is_puppet_of = ROOT
@@ -8,8 +43,13 @@ annex_and_core = {
                 has_autonomy_state = autonomy_collaboration_government
             }
         }
+        visible = {
+            FROM = {
+                is_puppet_of = ROOT
+            }
+        }
 
-        cost = 100
+        cost = 200
 
         target_array = subjects
 
@@ -35,6 +75,7 @@ annex_and_core = {
                     target = FROM
                     transfer_troops = yes
                 }
+                add_stability = -0.1
             }
 		}
 

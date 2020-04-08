@@ -20,7 +20,8 @@
  to_change_communism:0 "共産主義者の扇動"
 
  annex_and_core:0 "大歓迎の占領者"
- supper_annex:0 "[From.GetNameDef]の完全なる併合"
+ supper_annex_1:0 "[From.GetNameDef]の完全なる併合"
+ supper_annex_2:0 "[From.GetNameDef]への裏切り"
 
  get_goal_to_white_peace:0 "最後の選択肢"
  quest_for_peace:0 "[From.GetNameDef]との講話"
