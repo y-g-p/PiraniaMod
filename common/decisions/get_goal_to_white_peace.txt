@@ -1,32 +1,51 @@
 get_goal_to_white_peace = {
-    quest_for_peace {
+    peace_for_coward = {
         available = {
-            FROM = {
-                has_war_with = ROOT
-            }
+            has_war = yes
+            has_offensive_war = yes
         }
 
         visible = {
-            FROM = {
-                has_war_with = ROOT
-            }
+            has_war = yes
         }
 
         cost = 100
 
-        target_array = enemies
+        complete_effect = {
+            for_each_loop = {
+                array = enemies
+                value = v
 
-        target_trigger = {
-            FROM = {
-                has_war_with = ROOT
+                white_peace = v
+                add_stability = -10
+                add_war_support = -10
+                add_political_power = -100
             }
+		}
+
+        ai_will_do = { factor = 0 }
+    }
+
+    quest_for_peace {
+        available = {
+            has_war = yes
+            has_defensive_war = yes
         }
 
+        visible = {
+            has_war = yes
+        }
+
+        cost = 50
+
         complete_effect = {
-            white_peace = FROM
-            set_truce = {
-                target = FROM
-                days = 180
+            for_each_loop = {
+                array = enemies
+                value = v
+
+                white_peace = v
+                add_stability = 10
+                add_political_power = 100
             }
 		}
 

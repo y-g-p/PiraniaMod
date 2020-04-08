@@ -24,7 +24,8 @@
  supper_annex_2:0 "[From.GetNameDef]への裏切り"
 
  get_goal_to_white_peace:0 "最後の選択肢"
- quest_for_peace:0 "[From.GetNameDef]との講話"
+ peace_for_coward:0 "臆病者の選択肢"
+ quest_for_peace:0 "外交力の勝利"
 
  road_to_nordic_country:0 "北欧統一への道"
  conquest_sweden:0 "我が国はスウェーデンを求める"
