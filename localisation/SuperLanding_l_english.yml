@@ -36,6 +36,14 @@
  conquest_denmark_idea:0 "対デンマーク作戦"
  conquest_norway_idea:0 "対ノルウェー作戦"
  conquest_finland_idea:0 "対フィンランド作戦"
+
+ mobility_is_important:0 "機動性の追求"
+ focus_on_bicycles:0 "自転車への着目"
+ expand_of_bicycles:0 "自転車利用の拡大"
+
+ bicycle_artillery_brigade:0 "自転車化砲兵"
+ bicycle_anti_tank_brigade:0 "自転車化対戦車砲兵"
+ bicycle_anti_air_brigade:0 "自転車化対空砲兵"
  
  Foreseeable_Mass:0 "先見の明"
  Focus_on_Construction:0 "大規模公共事業"

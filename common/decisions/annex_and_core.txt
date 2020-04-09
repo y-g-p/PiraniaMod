@@ -19,11 +19,9 @@ annex_and_core = {
             FROM = {
                 for_each_loop = {
                     array = core_states
-
                     ROOT = {
                         add_state_core = v
                     }
-                    remove_state_core = v
                 }
             }
         }

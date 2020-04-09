@@ -19,6 +19,14 @@ on_actions = {
 				}
 				country_event = { id = SuperLanding.2 }
 			}
+
+			JAP = {
+				set_country_flag = focus_on_bicycles_flag
+			}
+
+			HOL = {
+				set_country_flag = focus_on_bicycles_flag
+			}
 		}
 	}
 }
