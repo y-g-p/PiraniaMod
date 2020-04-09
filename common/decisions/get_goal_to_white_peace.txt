@@ -11,7 +11,13 @@ get_goal_to_white_peace = {
 
         cost = 100
 
-        complete_effect = {
+        days_remove = 90
+
+        modifier = {
+			political_power_factor = -0.5
+		}
+
+        remove_effect = {
             for_each_loop = {
                 array = enemies
                 value = v
