@@ -1,0 +1,19 @@
+mobility_is_important = {
+    focus_on_bicycles = {
+        available = {
+            always = yes
+        }
+        visible = {
+            is_ai = no
+        }
+
+        cost = 0
+
+        complete_effect = {
+            set_technology = { bicycle_infantry = 1 }
+            set_technology = { bicycle_artillery_brigade_research = 1 }
+            set_technology = { bicycle_anti_tank_brigade_research = 1 }
+            set_technology = { bicycle_anti_air_brigade_research = 1 }
+        }
+    }
+}

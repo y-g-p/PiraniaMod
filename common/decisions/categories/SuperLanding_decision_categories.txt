@@ -41,3 +41,12 @@ road_to_nordic_country = {
 		}
 	}
 }
+
+mobility_is_important = {
+	available = {
+		always = yes
+	}
+	visible = {
+		is_ai = no
+	}
+}
