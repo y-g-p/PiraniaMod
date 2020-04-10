@@ -24,8 +24,8 @@ get_goal_to_white_peace = {
 
                 white_peace = v
             }
-            add_stability = -20
-            add_war_support = -20
+            add_stability = -0.2
+            add_war_support = -0.2
             add_political_power = -100
 		}
 
@@ -51,7 +51,7 @@ get_goal_to_white_peace = {
 
                 white_peace = v
             }
-            add_stability = 10
+            add_stability = 0.1
             add_political_power = 100
 		}
 

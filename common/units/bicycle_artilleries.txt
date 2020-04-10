@@ -1,6 +1,6 @@
 sub_units = {
     bicycle_artillery_brigade = {
-		sprite = artillery
+		sprite = infantry
 		map_icon_category = infantry
 		priority = 1198
 		ai_priority = 100
@@ -72,7 +72,7 @@ sub_units = {
 	}
 
 	bicycle_anti_tank_brigade = {
-		sprite = anti_tank
+		sprite = infantry
 		map_icon_category = infantry
 		priority = 1197
 		ai_priority = 100

@@ -25,7 +25,9 @@
 
  get_goal_to_white_peace:0 "最後の選択肢"
  peace_for_coward:0 "臆病者の選択肢"
+ peace_for_coward_desc:0 "我らが正しいことは間違いないが、ここから勝利することは不可能だ。\nたとえ国民から非難されようとも和平の道を探るべきである。"
  quest_for_peace:0 "外交力の勝利"
+ quest_for_peace_desc:0 "我が国を侵略する外道共を説得し、平和状態を回復する。\nその暁には国民からの信頼も得ることができるだろう。"
 
  road_to_nordic_country:0 "北欧統一への道"
  conquest_sweden:0 "我が国はスウェーデンを求める"
@@ -44,6 +46,9 @@
  bicycle_artillery_brigade:0 "自転車化砲兵"
  bicycle_anti_tank_brigade:0 "自転車化対戦車砲兵"
  bicycle_anti_air_brigade:0 "自転車化対空砲兵"
+ bicycle_artillery_brigade_research:0 "自転車化砲兵"
+ bicycle_anti_tank_brigade_research:0 "自転車化対戦車砲兵"
+ bicycle_anti_air_brigade_research:0 "自転車化対空砲兵"
  
  Foreseeable_Mass:0 "先見の明"
  Focus_on_Construction:0 "大規模公共事業"

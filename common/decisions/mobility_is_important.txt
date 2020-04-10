@@ -54,7 +54,6 @@ mobility_is_important = {
             set_technology = { bicycle_anti_tank_brigade_research = 1 }
             set_technology = { bicycle_anti_air_brigade_research = 1 }
         }
+        ai_will_do = { factor = 0 }
     }
-
-    ai_will_do = { factor = 0 }
 }
