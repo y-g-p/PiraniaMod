@@ -1,0 +1,19 @@
+quote_to_decision = {
+    # すべての道はローマに通ず
+    All_Roads_Lead_to_Rome = {
+        available = {
+            controls_state = 2
+            hidden_trigger = {
+                NOT = {
+                    has_idea = All_Roads_Lead_to_Rome_idea
+                }
+            }
+        }
+
+        complete_effect = {
+            add_ideas = All_Roads_Lead_to_Rome_idea
+        }
+
+        ai_will_do = { factor = 0}
+    }
+}

@@ -1,0 +1,29 @@
+ideas = {
+    country = {
+        # すべての道はローマに通ず
+        All_Roads_Lead_to_Rome_idea = {
+            allowed = {
+                is_ai = no
+            }
+
+            cancel = {
+                NOT = {
+                    controls_state = 2
+                }
+            }
+
+            picture = road_to_roma
+
+            allowed_civil_war = {
+				always = yes
+			}
+            removal_cost = -1
+
+            modifier = {
+                production_speed_infrastructure_factor = 1
+            }
+
+            ai_will_do = { factor = 0}
+        }
+    }
+}

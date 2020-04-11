@@ -39,6 +39,11 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/idea_War_For_Unity_gfx.dds"
     }
 
+    SpriteType = {
+        name = "GFX_idea_road_to_roma"
+        texturefile = "gfx/interface/ideas/idea_road_to_italy.dds"
+    }
+
     spriteType = {
 		name = "GFX_unit_bicycle_artillery_brigade_icon_medium"
 		texturefile = "gfx/interface/units/unit_bicycle_art.dds"

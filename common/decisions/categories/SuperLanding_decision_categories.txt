@@ -50,3 +50,9 @@ mobility_is_important = {
 		is_ai = no
 	}
 }
+
+quote_to_decision = {
+	available = {
+		is_ai = no
+	}
+}

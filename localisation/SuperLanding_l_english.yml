@@ -29,6 +29,14 @@
  quest_for_peace:0 "外交力の勝利"
  quest_for_peace_desc:0 "我が国を侵略する外道共を説得し、平和状態を回復する。\nその暁には国民からの信頼も得ることができるだろう。"
 
+ quote_to_decision:0 "温故知新"
+ quote_to_decision_desc:0 "古き言葉には良い含蓄があるだろう"
+ All_Roads_Lead_to_Rome:0 "すべての道はローマに通ず"
+ All_Roads_Lead_to_Rome_desc:0 "すべての道はローマに通じる。\nもしそうでないのなら整備しなければならない。"
+ All_Roads_Lead_to_Rome_idea:0 "すべての道はローマに通ず"
+ All_Roads_Lead_to_Rome_idea_desc:0 "すべての道はローマに通じる。\nもしそうでないのなら整備しなければならない。"
+
+
  road_to_nordic_country:0 "北欧統一への道"
  conquest_sweden:0 "我が国はスウェーデンを求める"
  conquest_denmark:0 "我が国はデンマークを求める"
