@@ -1,0 +1,133 @@
+max_combat = {
+    Bagpipe_Attack = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            offence = 0.25
+            army_attack_factor = 0.25
+            army_morale_factor = 1
+            recon_factor = 0.25
+            land_reinforce_rate = 0.25
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+
+    Dig_in_Defense = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            defence = 0.25
+            army_defence_factor = 0.25
+            army_morale_factor = 1
+            recon_factor = 0.25
+            land_reinforce_rate = 0.25
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+
+    Torpedo_Assault = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            navy_screen_attack_factor = 0.25
+            navy_screen_defence_factor = 0.25
+            navy_submarine_attack_factor = 0.25
+            navy_submarine_defence_factor = 0.25
+            naval_torpedo_hit_chance_factor = 0.25
+            naval_torpedo_cooldown_factor = -0.25
+            naval_torpedo_screen_penetration_factor = 0.25
+            naval_hit_chance = 1
+            naval_coordination = 1
+            spotting_chance = 1
+            navy_max_range_factor = 1
+            naval_speed_factor = 1
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+
+    Armor_is_Power = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            navy_carrier_air_attack_factor = 0.25
+            navy_carrier_air_targetting_factor = 0.25
+            navy_carrier_air_agility_factor = 0.25
+            navy_capital_ship_attack_factor = 0.25
+            navy_capital_ship_defence_factor = 0.25
+            naval_hit_chance = 1
+            naval_coordination = 1
+            spotting_chance = 1
+            navy_max_range_factor = 1
+            naval_speed_factor = 1
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+
+    Reality_beyond_Performance = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            army_bonus_air_superiority_factor = 0.2
+            air_range_factor = 0.5
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+
+    Limit_over_Wings = {
+        available = {
+            is_ai = no
+        }
+
+        cost = 25
+
+        modifier = {
+            army_bonus_air_superiority_factor = 0.3
+            air_range_factor = 1
+            air_accidents_factor = 0.15
+            air_air_superiority_attack_factor = 0.2
+            air_air_superiority_agility_factor = 0.2
+            air_close_air_support_attack_factor = 0.2
+            air_close_air_support_agility_factor = 0.2
+            air_strategic_bomber_attack_factor = 0.2
+            air_strategic_bomber_agility_factor = 0.2
+            air_strategic_bomber_bombing_factor = 0.2
+            air_cas_present_factor = 0.2
+            air_strategic_bomber_defence_factor = -0.2
+            air_close_air_support_defence_factor = -0.2
+            air_air_superiority_defence_factor = -0.2
+        }
+        days_remove = 30
+        ai_will_do = { factor = 0}
+		days_re_enable = 30
+    }
+}

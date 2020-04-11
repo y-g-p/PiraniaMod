@@ -56,3 +56,14 @@ quote_to_decision = {
 		is_ai = no
 	}
 }
+
+max_combat = {
+	available = {
+		is_ai = no
+		has_war = yes
+	}
+	visible = {
+		has_war = yes
+		is_ai = no
+	}
+}

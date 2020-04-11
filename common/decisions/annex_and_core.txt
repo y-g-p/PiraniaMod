@@ -13,8 +13,6 @@ annex_and_core = {
 			}
         }
 
-        cost = 100
-
 		complete_effect = {
             FROM = {
                 for_each_loop = {
@@ -24,6 +22,10 @@ annex_and_core = {
                     }
                 }
             }
+        }
+        days_remove = 30
+        modifier = {
+            political_power_factor = -0.1
         }
 		
 		target_non_existing = yes
@@ -76,6 +78,10 @@ annex_and_core = {
                 add_stability = -0.1
             }
 		}
+        days_remove = 30
+        modifier = {
+            political_power_factor = -0.1
+        }
 
         ai_will_do = { factor = 0 }
     }

@@ -2,8 +2,9 @@ road_to_nordic_country = {
     conquest_sweden = {
         available = {
             is_ai = no
+            country_exists = SWE
             OR {
-                country_exists = SWE
+                
                 original_tag = NOR
 				original_tag = DEN
 				original_tag = FIN
@@ -39,8 +40,9 @@ road_to_nordic_country = {
     conquest_denmark = {
         available = {
             is_ai = no
+            country_exists = DEN
             OR {
-                country_exists = DEN
+                
                 original_tag = NOR
 				original_tag = SWE
 				original_tag = FIN
@@ -76,8 +78,9 @@ road_to_nordic_country = {
     conquest_norway = {
         available = {
             is_ai = no
+            country_exists = NOR
             OR {
-                country_exists = NOR
+                
 				original_tag = DEN
 				original_tag = SWE
 				original_tag = FIN
@@ -113,8 +116,9 @@ road_to_nordic_country = {
     conquest_finland = {
         available = {
             is_ai = no
+            country_exists = FIN
             OR {
-                country_exists = FIN
+                
                 original_tag = NOR
 				original_tag = DEN
 				original_tag = SWE

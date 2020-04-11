@@ -44,7 +44,7 @@ country_event = {
 	
 	option = {
 		name = SuperLanding.2.a
-		add_research_slot = 4
+		add_research_slot = 2
 		add_tech_bonus {
 			bonus = 100
 			uses = 20
@@ -134,6 +134,7 @@ country_event = {
 			category = naval_minelaying
 			category = cat_scout_plane
 		}
+		add_ideas = Foreseeable_Mass
 		
 		hidden_effect {
 			set_country_flag = researchslots++
@@ -162,7 +163,7 @@ country_event = {
 	
 	option = {
 		name = SuperLanding.2.c
-		add_research_slot = 1
+		add_research_slot = 2
 		add_offsite_building = {
 			type = industrial_complex
 			level = 5
@@ -184,6 +185,7 @@ country_event = {
 			instant_build = yes
 		}
 		navy_experience = 100
+		air_experience = 100
 		
 		hidden_effect {
 			set_country_flag = researchslots++
