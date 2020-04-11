@@ -23,6 +23,7 @@ ai_null_peace = {
 					is_ai = no
 				}
 			}
+		}
 	}
 
 	annex_randomness = 0
