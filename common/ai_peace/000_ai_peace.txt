@@ -15,6 +15,7 @@ ai_null_peace = {
 					is_in_faction_with = ROOT
 					has_war_together_with = ROOT				
 				}
+				has_country_flag = is_only_player_peace
 			}
 			any_enemy_country = {
 				is_in_peace_conference = yes

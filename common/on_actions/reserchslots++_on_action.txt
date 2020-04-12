@@ -20,6 +20,13 @@ on_actions = {
 				country_event = { id = SuperLanding.2 }
 			}
 
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				country_event = { id = SuperLanding.3 }
+			}
+
 			JAP = {
 				set_country_flag = focus_on_bicycles_flag
 			}

@@ -76,6 +76,11 @@
  SuperLanding.2.b:0"産業を奨励する"
  SuperLanding.2.c:0"軍隊を増強する"
 
+ SuperLanding.3.t:0 "神の見えざる手"
+ SuperLanding.3.d:0 "他国は不思議な力によって我が国の裁定に文句をつけることができなくなるかもしれない"
+ SuperLanding.3.a:0 "それは素晴らしい力である"
+ SuperLanding.3.a:0 "そんな与太話は信用できない"
+
  max_combat:0 "Turn Thougths into Power"
  max_combat_desc:0 "プレイヤーの秘められた力が今、ユニットの真の力を引き出す!"
  Bagpipe_Attack:0 "バグパイプ突撃"

@@ -1,0 +1,21 @@
+add_namespace = SuperLanding
+# 3
+
+country_event = {
+    id = SuperLanding.3
+	title = SuperLanding.3.t
+	desc = SuperLanding.3.d
+
+    is_triggered_only = yes
+
+    option = {
+        name = SuperLanding.3.a
+		hidden_effect {
+			set_country_flag = is_only_player_peace
+		}
+    }
+
+    option = {
+        name = SuperLanding.3.b
+    }
+}
