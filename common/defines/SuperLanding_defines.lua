@@ -28,3 +28,10 @@ NDefines.NMilitary.NAVAL_EQUIPMENT_RAMP_COST = 0 --海軍機器改造コスト
 
 NDefines.NMilitary.AIR_EQUIPMENT_BASE_COST = 5 --空軍機器改造コスト
 NDefines.NMilitary.AIR_EQUIPMENT_RAMP_COST = 0 --空軍機器改造コスト
+
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1
+
+NDefines.NCountry.BASE_MAX_COMMAND_POWER = 150
+NDefines.NCountry.BASE_COMMAND_POWER_GAIN = 0.01
+NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0.5
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 72
