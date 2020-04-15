@@ -12,12 +12,6 @@ expansion_of_landing = {
 	}
 }
 
-ideology_change_support {
-	available = {
-		is_ai = no
-	}
-}
-
 annex_and_core = {
 	available = {
 		is_ai = no

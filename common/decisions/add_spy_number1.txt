@@ -145,13 +145,13 @@ expansion_of_landing = {
 			add_tech_bonus {
 				bonus = 2
 				uses = 1
-				technology = mtg_landing_craft
+				technology = landing_craft
 				ahead_reduction = 10
 			}
 			add_tech_bonus {
 				bonus = 2
 				uses = 1
-				technology = mtg_tank_landing_craft
+				technology = tank_landing_craft
 				ahead_reduction = 10
 			}
 		}
@@ -162,7 +162,7 @@ expansion_of_landing = {
 	
 	PromotionOfLanding = {
 		available = {
-			has_tech = mtg_tank_landing_craft
+			has_tech = tank_landing_craft
 		}
 		
 		cost = 50
