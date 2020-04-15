@@ -5,8 +5,8 @@ tags={
 	"Utilities"
 }
 dependencies={
-	"Kaiserreich"
+	"Hearts of Iron IV: The Great War"
 	"Japanese Language mod"
 }
-name="KR_Pirania"
+name="TGW_Pirania"
 supported_version="1.9.*"
