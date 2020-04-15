@@ -5,8 +5,8 @@ tags={
 	"Utilities"
 }
 dependencies={
-	"Kaiserreich"
+	"Ambition of prefectures"
 	"Japanese Language mod"
 }
-name="KR_Pirania"
+name="AoP_Pirania"
 supported_version="1.9.*"
