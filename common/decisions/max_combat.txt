@@ -130,4 +130,110 @@ max_combat = {
         ai_will_do = { factor = 0}
 		days_re_enable = 30
     }
+
+    Beyond_the_Dead_of_a_Comrade_1 = {
+        available = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 50000
+                }
+                casualties > 500000
+            }
+        }
+        visible = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 40000
+                }
+                casualties > 400000
+            }
+        }
+
+        cost = 25
+
+        fire_only_once = yes
+
+        complete_effect = {
+            add_ideas = Beyond_the_Dead_of_a_Comrade_idea
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    Beyond_the_Dead_of_a_Comrade_2 = {
+        available = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 100000
+                }
+                casualties > 1000000
+            }
+        }
+        visible = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 75000
+                }
+                casualties > 750000
+            }
+        }
+
+        cost = 25
+
+        modifier = {
+            training_time_army_factor = -0.2
+            conscription = 0.02
+            research_speed_factor = -0.1
+        }
+
+        days_remove = 90
+        ai_will_do = { factor = 0 }
+        days_re_enable = 30
+    }
+
+    Beyond_the_Dead_of_a_Comrade_3 = {
+        available = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 100000
+                }
+                casualties > 1000000
+            }
+        }
+        visible = {
+            is_ai = no
+            OR = {
+                AND = {
+                    is_major = no
+                    casualties > 75000
+                }
+                casualties > 750000
+            }
+        }
+
+        cost = 25
+
+        modifier = {
+            offence = 0.5
+            army_morale_factor = 1
+            recon_factor = 0.25
+            land_reinforce_rate = 0.25
+            army_speed_factor = 1
+            attrition = -0.1
+        }
+
+        days_remove = 30
+        ai_will_do = { factor = 0 }
+        days_re_enable = 30
+    }
 }

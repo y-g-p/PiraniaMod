@@ -1,0 +1,24 @@
+ideas = {
+    country = {
+        Beyond_the_Dead_of_a_Comrade_idea = {
+            allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = Spy_Level1
+			removal_cost = -1
+			
+			modifier = {
+                defence = 0.25
+                training_time_army_factor = -0.25
+                experience_gain_army_unit_factor = 0.25
+                experience_loss_factor = -0.80
+			}
+			
+			ai_will_do = { factor = 0}
+        }
+    }
+}
