@@ -133,9 +133,24 @@ expansion_of_landing = {
 	
 	PromotionOfReserch = {
 		available = {
-			has_navy_size = {
-				size > 5
-				type = screen_ship
+			OR = {
+				has_navy_size = {
+					size > 5
+					type = screen_ship
+				}
+				AND = {
+					all_of_scopes = {
+						array = controlled_states
+						is_coastal = no
+					}
+					has_tech = mtg_transport
+				}
+			}
+		}
+
+		visible = {
+			NOT = {
+				has_tech = mtg_tank_landing_craft
 			}
 		}
 		
@@ -164,6 +179,9 @@ expansion_of_landing = {
 		available = {
 			has_tech = mtg_tank_landing_craft
 		}
+		visible = {
+			has_tech = mtg_tank_landing_craft
+		}
 		
 		cost = 50
 		
@@ -173,7 +191,7 @@ expansion_of_landing = {
 				limit = { is_capital = yes }
 				add_resource = {
 					type = oil
-					amount = 50
+					amount = 100
 				}
 			}
 		}
