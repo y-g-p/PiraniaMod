@@ -40,7 +40,12 @@ annex_and_core = {
                 is_puppet_of = ROOT
             }
             FROM = {
-                has_autonomy_state = autonomy_collaboration_government
+                OR = {
+                    has_autonomy_state = autonomy_integrated_puppet
+                    has_autonomy_state = autonomy_reichskommissariat
+                    has_autonomy_state = autonomy_wtt_imperial_protectorate
+                    has_autonomy_state = autonomy_collaboration_government
+                }
             }
         }
         visible = {
