@@ -127,6 +127,22 @@ expansion_of_intelligence_service = {
 		ai_will_do = { factor = 0}
 		days_re_enable = 30
 	}
+
+	governance_support_3 = {
+		available = {
+			num_of_civilian_factories_available_for_projects > 1
+		}
+
+		cost = 25
+		modifier = {
+			political_power_gain = -0.2
+			industrial_capacity_factory = 0.2
+			industrial_capacity_dockyard = 0.2
+		}
+		days_remove = 90
+		ai_will_do = { factor = 0}
+		days_re_enable = 30
+	}
 }
 
 expansion_of_landing = {
